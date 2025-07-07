@@ -1,0 +1,4 @@
+.github/.DS_Store
+.venv/
+.DS_Store
+outlier_main.py

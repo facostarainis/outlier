@@ -1,0 +1,39 @@
+name: Scrape Job Listings
+
+on:
+    workflow_dispatch:  # Allows manual trigger
+    
+    schedule:
+    # Run at 0 UTC every day
+      - cron: '0 0 * * *'
+
+permissions:
+    contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: |
+            pip install beautifulsoup4 pandas selenium requests
+
+      - name: Run scraper
+        run: python outlier_main_v2.py
+        continue-on-error: true
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add -A
+          git commit -m "Update job listings" -a || echo "No changes to commit"
+          git push
