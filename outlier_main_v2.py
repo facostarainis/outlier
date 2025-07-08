@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import os
-from datetime import datetime
+from datetime import datetime, UTC
 
 # === CONFIG ===
 TEMP_CSV = "outlier_jobs_temp.csv"
@@ -37,8 +37,8 @@ time.sleep(3)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 type_headers = soup.find_all('div', class_='text-lg font-semibold pt-4')
 
-scraping_date = datetime.utcnow().strftime("%d/%m/%Y")
-scraping_time = datetime.utcnow().strftime("%H:%M")
+scraping_date = datetime.now(UTC).strftime("%d/%m/%Y")
+scraping_time = datetime.now(UTC).strftime("%H:%M")
 jobs_temp = []
 
 for header in type_headers:
@@ -130,7 +130,7 @@ for _, job in jobs_temp_df.iterrows():
         # === SCRAPE NEW JOB DETAILS ===
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         h1 = soup.find('h1')
-        title = h1.get_text(strip=True) if h1 else ""
+        job_title = h1.get_text(strip=True) if h1 else ""
 
         location_div = soup.find('div', class_="text-sm font-small text-neutral-700 py-4")
         raw_location = location_div.get_text(strip=True) if location_div else ""
@@ -140,25 +140,25 @@ for _, job in jobs_temp_df.iterrows():
         description_container = soup.find('div', class_="text-sm font-small")
         description = ""
         if description_container:
-            inside_expect = False
-            for tag in description_container.children:
-                if tag.name == "p":
-                    text = tag.get_text(strip=True)
-                    if "What to expect" in text:
-                        inside_expect = True
-                        continue
-                    if not inside_expect:
-                        description += text + "\n"
-                elif tag.name in ["ul", "ol"]:
-                    if not inside_expect:
-                        for li in tag.find_all("li"):
-                            description += "- " + li.get_text(strip=True) + "\n"
+            for element in description_container.find_all(["p", "ul", "ol"], recursive=False):
+                text = element.get_text(strip=True)
+                if "What to expect" in text:
+                    break  # Stop at "What to expect" section
+                if element.name == "p":
+                    description += text + "\n"
+                elif element.name in ["ul", "ol"]:
+                    for li in element.find_all("li"):
+                        description += f"- {li.get_text(strip=True)}\n"
 
-        highlights_divs = soup.select('div.outlier-theme .bg-utility-offWhite')
+        highlight_section = soup.find('div', class_='outlier-theme')
         highlights = ""
-        for h in highlights_divs:
-            parts = [el.get_text(separator=' ', strip=True) for el in h.find_all(['div'])]
-            highlights += "\n".join(parts) + "\n"
+        if highlight_section:
+            cards = highlight_section.find_all('div', class_='bg-utility-offWhite')
+            for card in cards:
+                highlight_title = card.find('div', class_='text-sm font-medium')
+                highlight_desc = card.find('div', class_='text-xs')
+                if highlight_title and highlight_desc:
+                    highlights += f"{highlight_title.get_text(strip=True)}: {highlight_desc.get_text(strip=True)}\n"
 
         new_row = pd.DataFrame([{
             'Scraping Date': scraping_date,
@@ -167,7 +167,7 @@ for _, job in jobs_temp_df.iterrows():
             'Posted at': scraping_date,
             'Deleted at': '',
             'Reposted at': '',
-            'Job Title': title,
+            'Job Title': job_title,
             'Workplace Type': workplace_type,
             'Location': location,
             'Type': job_type,
@@ -177,6 +177,7 @@ for _, job in jobs_temp_df.iterrows():
             'Requirements': '',
             'Highlights': highlights.strip()
         }])
+
 
         existing_df = pd.concat([existing_df, new_row], ignore_index=True)
         existing_df.to_csv(FINAL_CSV, index=False)
