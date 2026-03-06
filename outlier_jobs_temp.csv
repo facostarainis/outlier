@@ -15,30 +15,48 @@ Index,Job Title,Location,Type
 13,Arabic (Egypt) Freelance Writer,Remote - Egypt,Languages
 14,Arabic (Egypt) Freelance Writer (US),"Remote - Egypt, United States",Languages
 15,Bangla Freelance Writer,"Remote - India, Bangladesh, United States, Canada, Puerto Rico, Mexico, United Kingdom, Australia, New Zealand, Argentina",Languages
-16,Danish Freelance STEM Writer,Remote - Denmark,Languages
-17,Dutch Freelance STEM Writer,Remote - Netherlands,Languages
-18,Finnish Freelance STEM Writer,Remote - Finland,Languages
-19,Gulf Arabic Freelance Writer,Remote - Saudi Arabia,Languages
-20,Hebrew Freelance Writer,"Remote - Israel, United States, Canada, United Kingdom, Australia, New Zealand",Languages
-21,Hijazi Arabic Freelance Writer,Remote - Saudi Arabia,Languages
-22,Hindi Freelance Writer (India),Remote - India,Languages
-23,Hong Kong Chinese Freelance Writer,"Remote - United States, Canada, United Kingdom, Australia, Singapore, Taiwan, Province of China, Japan, Korea, Republic of",Languages
-24,Iraqi Arabic Freelance Writer,Remote - Global,Languages
-25,Levantine  Arabic Freelance Writer,Remote - Jordan,Languages
-26,Malay Freelance Writer,"Remote - Malaysia, Indonesia, Thailand",Languages
-27,Marathi (India) Freelance Writer,Remote - India,Languages
-28,Najdi  Arabic Freelance Writer,Remote - Saudi Arabia,Languages
-29,Norwegian Freelance STEM Writer,Remote - Norway,Languages
-30,Penulis STEM Bebas Bahasa Melayu,"Remote - Malaysia, Indonesia, Thailand",Languages
-31,Polish Freelance STEM Writing,Remote - Poland,Languages
-32,STEM Freelance Writer in Flemish,Remote - Belgium,Languages
-33,Swedish Freelance STEM Writer,Remote - Sweden,Languages
-34,Tamil (India) Freelance Writer,Remote - India,Languages
-35,Thai Freelance STEM Writer,Remote - Thailand,Languages
-36,Ukrainian Freelance Writer,"Remote - United States, Canada, United Kingdom, Poland, Germany, Italy, Czech Republic",Languages
-37,นักเขียน STEM ฟรีแลนซ์ภาษาไทย,Remote - Thailand,Languages
-38,香港中文自由撰稿人,"Remote - United States, United Kingdom, New Zealand, Canada, Australia, Malaysia, Singapore",Languages
-39,Coding Expert - LATAM,"Remote - Puerto Rico, Argentina, Peru, Colombia, Dominica, Brazil, Mexico, Belize, Costa Rica, Dominican Republic, El Salvador, Nicaragua, Panama, Trinidad and Tobago, Bolivia, Chile, Ecuador, Paraguay, Venezuela, Uruguay",Coders
-40,Software Engineer for AI Training (Code Quality & Debugging Focus),Remote - India,Coders
-41,English Writing and Content Reviewing Expertise Sought for AI Training,"Remote - United States, Australia, Canada, United Kingdom, New Zealand, Ireland",Generalist
-42,English Writing and Content Reviewing Expertise Sought for AI Training,Remote - India,Generalist
+16,Bulgarian Freelance Writer,Remote - Bulgaria,Languages
+17,Chinese (Taiwan - Traditional) AI Training,"Remote - Taiwan, Province of China",Languages
+18,Danish Freelance STEM Writer,Remote - Denmark,Languages
+19,Dutch Freelance STEM Writer,Remote - Netherlands,Languages
+20,Escritor Freelancer Español - México,Remote - Mexico,Languages
+21,Finnish Freelance STEM Writer,Remote - Finland,Languages
+22,French Freelance Writer,Remote - France,Languages
+23,German Freelance Writer,Remote - Germany,Languages
+24,Gujarati  Freelance Writer,Remote - India,Languages
+25,Gulf Arabic Freelance Writer,Remote - Saudi Arabia,Languages
+26,Hebrew Freelance Writer,"Remote - Israel, United States, Canada, United Kingdom, Australia, New Zealand",Languages
+27,Hijazi Arabic Freelance Writer,Remote - Saudi Arabia,Languages
+28,Hindi Freelance Writer (India),Remote - India,Languages
+29,Hong Kong Chinese Freelance Writer,"Remote - United States, Canada, United Kingdom, Australia, Singapore, Taiwan, Province of China, Japan, Korea, Republic of",Languages
+30,Indonesian Freelance Writer,Remote - Indonesia,Languages
+31,Iraqi Arabic Freelance Writer,Remote - Global,Languages
+32,Italian Freelance Writer,Remote - Italy,Languages
+33,Japanese AI Training,Remote - Japan,Languages
+34,Japanese AI Training,Remote - Japan,Languages
+35,Kannada Freelance Writer,Remote - India,Languages
+36,Kiswahili  Writing Expertise for AI Training,"Remote - Tanzania, United Republic of",Languages
+37,Korean AI Training,"Remote - Korea, Republic of",Languages
+38,Levantine  Arabic Freelance Writer,Remote - Jordan,Languages
+39,Malay Freelance Writer,Remote - Malaysia,Languages
+40,Mandarin Chinese (Simplified) Freelance Writer,"Remote - United States, Canada, United Kingdom",Languages
+41,Marathi (India) Freelance Writer,Remote - India,Languages
+42,Najdi  Arabic Freelance Writer,Remote - Saudi Arabia,Languages
+43,Norwegian Freelance STEM Writer,Remote - Norway,Languages
+44,Penulis STEM Bebas Bahasa Melayu,"Remote - Malaysia, Indonesia, Thailand",Languages
+45,Polish Freelance STEM Writing,Remote - Poland,Languages
+46,Portuguese (Brazil) Freelance Writer,Remote - Brazil,Languages
+47,STEM Freelance Writer in Flemish,Remote - Belgium,Languages
+48,Swedish Freelance STEM Writer,Remote - Sweden,Languages
+49,Tagalog  Freelance Writer,Remote - Philippines,Languages
+50,Tamil (India) Freelance Writer,Remote - India,Languages
+51,Telugu (India) Freelance Writer,Remote - India,Languages
+52,Thai Freelance STEM Writer,Remote - Thailand,Languages
+53,Ukrainian Freelance Writer,"Remote - United States, Canada, United Kingdom, Poland, Germany, Italy, Czech Republic",Languages
+54,Vietnamese Freelance Writer,Remote - Viet Nam,Languages
+55,นักเขียน STEM ฟรีแลนซ์ภาษาไทย,Remote - Thailand,Languages
+56,香港中文自由撰稿人,"Remote - United States, United Kingdom, New Zealand, Canada, Australia, Malaysia, Singapore",Languages
+57,Coding Expert - LATAM,"Remote - Puerto Rico, Argentina, Peru, Colombia, Dominica, Brazil, Mexico, Belize, Costa Rica, Dominican Republic, El Salvador, Nicaragua, Panama, Trinidad and Tobago, Bolivia, Chile, Ecuador, Paraguay, Venezuela, Uruguay, Honduras, Guatemala",Coders
+58,Software Engineer for AI Training (Code Quality & Debugging Focus),Remote - India,Coders
+59,English Writing and Content Reviewing Expertise Sought for AI Training,"Remote - United States, Australia, Canada, United Kingdom, New Zealand, Ireland",Generalist
+60,English Writing and Content Reviewing Expertise Sought for AI Training,Remote - India,Generalist
