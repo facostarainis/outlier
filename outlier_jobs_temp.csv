@@ -30,36 +30,34 @@ Index,Job Title,Location,Type
 28,Hebrew Freelance Writer,Remote - Israel,Languages
 29,Hijazi Arabic Freelance Writer,Remote - Saudi Arabia,Languages
 30,Hindi Freelance Writer (India),Remote - India,Languages
-31,Indonesian Freelance Writer,Remote - Indonesia,Languages
-32,Italian Freelance Writer,Remote - Italy,Languages
-33,Japanese AI Training,Remote - Japan,Languages
-34,Kannada Freelance Writer,Remote - India,Languages
-35,Kiswahili  Writing Expertise for AI Training,"Remote - Tanzania, United Republic of",Languages
-36,Korean AI Training,"Remote - Korea, Republic of",Languages
-37,Levantine  Arabic Freelance Writer,Remote - Jordan,Languages
-38,Malay Freelance Writer,Remote - Malaysia,Languages
-39,Mandarin Chinese (Simplified) Freelance Writer,"Remote - United States, Canada, United Kingdom",Languages
-40,Mandarin Chinese (Simplified) Freelance Writer,Remote - Canada,Languages
-41,Marathi (India) Freelance Writer,Remote - India,Languages
-42,Najdi  Arabic Freelance Writer,Remote - Saudi Arabia,Languages
-43,Norwegian Freelance STEM Writer,Remote - Norway,Languages
-44,Polish Freelance STEM Writing,Remote - Poland,Languages
-45,Portuguese (Brazil) Freelance Writer,Remote - Brazil,Languages
-46,STEM Freelance Writer in Flemish,Remote - Belgium,Languages
-47,Swedish Freelance STEM Writer,Remote - Sweden,Languages
-48,Tagalog  Freelance Writer,Remote - Philippines,Languages
-49,Tamil (India) Freelance Writer,Remote - India,Languages
-50,Telugu (India) Freelance Writer,Remote - India,Languages
-51,Thai Freelance STEM Writer,Remote - Thailand,Languages
-52,Urdu (India) Freelance Writer,Remote - India,Languages
-53,Vietnamese Freelance Writer,Remote - Vietnam,Languages
-54,Coding Expert - LATAM,"Remote - Puerto Rico, Argentina, Peru, Colombia, Dominica, Brazil, Mexico, Belize, Costa Rica, Dominican Republic, El Salvador, Nicaragua, Panama, Trinidad and Tobago, Bolivia, Chile, Ecuador, Paraguay, Venezuela, Uruguay, Honduras, Guatemala",Coders
-55,Full Stack Software Engineer for AI Training,Remote - Global,Coders
-56,Full Stack Software Engineer for AI Training,"Remote - United States, Canada, United Kingdom, Australia",Coders
-57,OpenClaw Agent Builder (Software Developers),"Remote - Canada, United States, Australia, United Kingdom, France, Norway, Finland, Italy",Coders
-58,OpenClaw Agent Builder (Software Developers),Remote - Global,Coders
-59,Software Engineer for AI Training (Code Quality & Debugging Focus),Remote - India,Coders
-60,English Writing and Content Reviewing Expertise Sought for AI Training,"Remote - United States, Australia, Canada, United Kingdom, New Zealand, Ireland",Generalist
-61,English Writing and Content Reviewing Expertise Sought for AI Training,Remote - India,Generalist
-62,Law Expertise Sought for AI Training,Remote - Singapore,Specialists
-63,Math Expertise for AI Training,"Remote - United States, Canada, Puerto Rico, Mexico, United Kingdom, Australia, New Zealand, Argentina",Specialists
+31,Italian Freelance Writer,Remote - Italy,Languages
+32,Japanese AI Training,Remote - Japan,Languages
+33,Kannada Freelance Writer,Remote - India,Languages
+34,Kiswahili  Writing Expertise for AI Training,"Remote - Tanzania, United Republic of",Languages
+35,Korean AI Training,"Remote - Korea, Republic of",Languages
+36,Levantine  Arabic Freelance Writer,Remote - Jordan,Languages
+37,Malay Freelance Writer,Remote - Malaysia,Languages
+38,Mandarin Chinese (Simplified) Freelance Writer,"Remote - United States, Canada, United Kingdom",Languages
+39,Mandarin Chinese (Simplified) Freelance Writer,Remote - Canada,Languages
+40,Marathi (India) Freelance Writer,Remote - India,Languages
+41,Najdi  Arabic Freelance Writer,Remote - Saudi Arabia,Languages
+42,Norwegian Freelance STEM Writer,Remote - Norway,Languages
+43,Polish Freelance STEM Writing,Remote - Poland,Languages
+44,Portuguese (Brazil) Freelance Writer,Remote - Brazil,Languages
+45,STEM Freelance Writer in Flemish,Remote - Belgium,Languages
+46,Swedish Freelance STEM Writer,Remote - Sweden,Languages
+47,Tamil (India) Freelance Writer,Remote - India,Languages
+48,Telugu (India) Freelance Writer,Remote - India,Languages
+49,Thai Freelance STEM Writer,Remote - Thailand,Languages
+50,Urdu (India) Freelance Writer,Remote - India,Languages
+51,Vietnamese Freelance Writer,Remote - Vietnam,Languages
+52,Coding Expert - LATAM,"Remote - Puerto Rico, Argentina, Peru, Colombia, Dominica, Brazil, Mexico, Belize, Costa Rica, Dominican Republic, El Salvador, Nicaragua, Panama, Trinidad and Tobago, Bolivia, Chile, Ecuador, Paraguay, Venezuela, Uruguay, Honduras, Guatemala",Coders
+53,Full Stack Software Engineer for AI Training,Remote - Global,Coders
+54,Full Stack Software Engineer for AI Training,"Remote - United States, Canada, United Kingdom, Australia",Coders
+55,OpenClaw Agent Builder (Software Developers),"Remote - Canada, United States, Australia, United Kingdom, France, Norway, Finland, Italy",Coders
+56,OpenClaw Agent Builder (Software Developers),Remote - Global,Coders
+57,Software Engineer for AI Training (Code Quality & Debugging Focus),Remote - India,Coders
+58,English Writing and Content Reviewing Expertise Sought for AI Training,"Remote - United States, Australia, Canada, United Kingdom, New Zealand, Ireland",Generalist
+59,English Writing and Content Reviewing Expertise Sought for AI Training,Remote - India,Generalist
+60,Law Expertise Sought for AI Training,Remote - Singapore,Specialists
+61,Math Expertise for AI Training,"Remote - United States, Canada, Puerto Rico, Mexico, United Kingdom, Australia, New Zealand, Argentina",Specialists
